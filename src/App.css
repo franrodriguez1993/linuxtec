@@ -1,38 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
 .App {
   text-align: center;
+  font-family: var(--Font1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.outlet {
+  min-height: 95vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root {
+  --color1: #e9d20e;
+  --color2: #bdb465;
+  --color3: #131e22;
+  --color4: #254b67;
+  --color5: #fa5226;
+  --color6: #ffd239;
+  --color7: #ffffa2;
+  --Font1: "Ubuntu", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4920343137254902) 0%,
+      rgba(0, 0, 0, 0.520045518207283) 100%
+    ),
+    url("/public/img/linux-yellow.png");
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+
+*/

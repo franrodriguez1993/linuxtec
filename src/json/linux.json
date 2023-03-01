@@ -1,0 +1,33 @@
+{
+  "debian": {
+    "name": "Debian",
+    "description": "Esta arquitectura se basa en lanzar versiones del sistema operativo que son estables cada cierto tiempo, las cuales tienen sus nombres tomados de personajes de toy story. Utilizan los paquetes .deb.",
+    "image": "/img/debian.png",
+    "distros": [
+      { "name": "Debian", "image": "/img/debianDistro.png" },
+      { "name": "Ubuntu", "image": "/img/ubuntu.png" },
+      { "name": "linux Mint", "image": "/img/mint.png" },
+      { "name": "Xubuntu", "image": "/img/xubuntu.png" },
+      { "name": "Loc-OS", "image": "/img/linux.png" }
+    ]
+  },
+  "rpm": {
+    "name": "RPM",
+    "description": "Esta arquitectura fue lanzada por la compañia redhat y es utilizada por varias distros, entre ellas fedora, redhat, openSUSE. La mayoria de estas distros se basan en lanzamientos estables de las mismas, excepto OpenSUSE, al igual que la arquitectura debian.",
+    "image": "/img/redhat.png",
+    "distros": [
+      { "name": "Fedora", "image": "/img/fedora.png" },
+      { "name": "Redhat", "image": "/img/redhatDistro.png" },
+      { "name": "OpenSUSE", "image": "/img/opensuse.png" }
+    ]
+  },
+  "arch": {
+    "name": "Arch",
+    "description": "Esta arquitectura se basa en la filosofia kiss(keep it simple stupid) y tiene un modelo de lanzamiento rolling release, es decir, hay una sola versión del sistema que se va actualizando constantemente y tiene todos los paquetes al dia en su ultima versión. Utiliza los paquetes .pacman y .targz.",
+    "image": "/img/arch.png",
+    "distros": [
+      { "name": "Arch", "image": "/img/archDistro.png" },
+      { "name": "Manjaro", "image": "/img/manjaro.png" }
+    ]
+  }
+}
