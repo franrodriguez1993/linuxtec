@@ -21,7 +21,7 @@ const Navbar = () => {
           <ul className="navbar-nav">
             <li className="nav-item">
               <NavLink className="nav-link" aria-current="page" to="/">
-                Home
+                Inicio
               </NavLink>
             </li>
             <li className="nav-item dropdown">
