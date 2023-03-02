@@ -20,20 +20,37 @@
   --Font1: "Ubuntu", sans-serif;
 }
 
-/*
+/**  KEY FRAMES  **/
+@keyframes leftAnimation {
+  from {
+    opacity: 0%;
+    position: relative;
+    left: -50px;
+  }
+  to {
+    opacity: 100%;
+    position: relative;
+    left: 0px;
+  }
+}
 
-
-background: rgb(0, 0, 0);
-  background: linear-gradient(
-      90deg,
-      rgba(0, 0, 0, 0.4920343137254902) 0%,
-      rgba(0, 0, 0, 0.520045518207283) 100%
-    ),
-    url("/public/img/linux-yellow.png");
-  background-attachment: fixed;
-  background-size: cover;
-
-
-
-
-*/
+@keyframes rightAnimation {
+  from {
+    opacity: 0%;
+    position: relative;
+    right: -50px;
+  }
+  to {
+    opacity: 100%;
+    position: relative;
+    right: 0px;
+  }
+}
+@keyframes fadeinAnimation {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
