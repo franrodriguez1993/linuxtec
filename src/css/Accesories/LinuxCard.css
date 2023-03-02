@@ -1,0 +1,40 @@
+.Card-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--color5);
+  box-shadow: 3px 3px 3px var(--color5);
+  width: 12rem;
+}
+
+.Card-Container_text {
+  font-weight: bolder;
+}
+
+.Card-Container_image {
+  width: 7rem;
+}
+
+.Card-Container:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 5px 4px 4px var(--color5);
+}
+
+.Card-Container_a {
+  background-color: var(--color6);
+  color: var(--color3);
+  padding: 0.5rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.Card-Container_a:hover {
+  background-color: var(--color2);
+}

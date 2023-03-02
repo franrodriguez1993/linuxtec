@@ -1,0 +1,51 @@
+.DebianRoute-Container {
+  min-height: 95vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4920343137254902) 0%,
+      rgba(0, 0, 0, 0.520045518207283) 100%
+    ),
+    url("/public/img/linux-yellow.png");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Title-Container {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.Title-Container_image {
+  height: 4rem;
+}
+.Title-Container_text {
+  font-size: 4rem;
+  color: var(--color3);
+}
+
+.Description-Container {
+  background-color: #fff;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 5px var(--color7);
+}
+
+.Description-Container_HR {
+  border: 1px solid black;
+  width: 60%;
+}
+
+.section-container_distros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

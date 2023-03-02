@@ -15,7 +15,7 @@
         "url": "https://ubuntu.com/"
       },
       {
-        "name": "linux Mint",
+        "name": "Linux Mint",
         "image": "/img/mint.png",
         "url": "https://linuxmint.com/"
       },
@@ -49,7 +49,7 @@
       {
         "name": "OpenSUSE",
         "image": "/img/opensuse.png",
-        "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+        "url": "https://www.opensuse.org/"
       }
     ]
   },
@@ -61,7 +61,7 @@
       {
         "name": "Arch",
         "image": "/img/archDistro.png",
-        "url": "https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux"
+        "url": "https://archlinux.org/"
       },
       {
         "name": "Manjaro",
