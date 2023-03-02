@@ -1,6 +1,7 @@
 import React from "react";
 import "../../css/Accesories/Navbar.css";
 import { NavLink } from "react-router-dom";
+import barsIcon from "../../svg/bars.svg";
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
@@ -15,7 +16,7 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <img src={barsIcon} alt="bars" className="navbar-toggler-icon" />
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
@@ -24,6 +25,7 @@ const Navbar = () => {
                 Inicio
               </NavLink>
             </li>
+
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -52,11 +54,39 @@ const Navbar = () => {
                 </li>
               </ul>
             </li>
-
-            <li className="nav-item">
-              <NavLink className="nav-link" href="#">
+            <li className="nav-item dropdown">
+              <a
+                className="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 FAQ
-              </NavLink>
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink className="dropdown-item" to="faq#history">
+                    Historia
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="faq#whatis">
+                    ¿Qué es linux?
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="faq#characteristics">
+                    Características
+                  </NavLink>
+                </li>
+
+                <li>
+                  <NavLink className="dropdown-item" to="faq#advantages">
+                    Ventajas - Desventajas
+                  </NavLink>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

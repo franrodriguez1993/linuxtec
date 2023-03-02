@@ -13,10 +13,11 @@
 .dropdown-item {
   font-weight: bolder;
   color: var(--color4) !important;
+  background-color: var(--color2) !important;
 }
 .dropdown-item:hover {
-  background-color: var(--color1);
+  background-color: var(--color1) !important;
 }
 .dropdown-menu {
-  background-color: var(--color2);
+  background-color: var(--color2) !important;
 }

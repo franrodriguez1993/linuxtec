@@ -1,0 +1,45 @@
+.faqroute-container {
+  min-height: 95vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4920343137254902) 0%,
+      rgba(0, 0, 0, 0.520045518207283) 100%
+    ),
+    url("/public/img/linuxMinimalistic2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.faqroute-container a {
+  width: 80%;
+}
+/**   HISTORY SECTION **/
+
+.history-section,
+.whatis-section,
+.characteristics-section,
+.advantages-section {
+  margin: 3rem 0;
+  padding: 4rem;
+  width: 100%;
+  background-color: #fff;
+  min-height: 15rem;
+  text-align: start;
+  box-shadow: 5px 5px 20px var(--color4);
+}
+
+.faqroute-container p {
+  margin: 2rem 0;
+}
+.faqroute-container li {
+  font-weight: bolder;
+}
+
+.faqhistory-img,
+.faqwhatis_img {
+  width: 100%;
+  object-fit: cover;
+}
