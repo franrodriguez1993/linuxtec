@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Accesories/Footer";
 import Navbar from "./components/Accesories/Navbar";
 import UpButtom from "./components/Accesories/upButtom";
 
@@ -29,6 +30,8 @@ function App() {
           <UpButtom />
         </div>
       )}
+
+      <Footer />
     </div>
   );
 }

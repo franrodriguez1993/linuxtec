@@ -12,36 +12,27 @@ const HomeRoute = () => {
       />
 
       <div className="homeroute-distros">
-        <article
-          className="homeroute-distro_card"
-          onClick={() => navigate("/debian")}
-        >
+        <a className="homeroute-distro_card" href="/debian">
           <img src="/img/debian.png" alt="debian" className="hrcard-img_left" />
           <h2 className="hrcard-title">Debian</h2>
-        </article>
+        </a>
 
         <hr className="homeroute-hr" />
 
-        <article
-          className="homeroute-distro_card"
-          onClick={() => navigate("/rpm")}
-        >
+        <a className="homeroute-distro_card" href="/rpm">
           <h2 className="hrcard-title">Red Hat</h2>
           <img
             src="/img/redhatDistro.png"
             alt="red hat"
             className="hrcard-img_right"
           />
-        </article>
+        </a>
 
         <hr className="homeroute-hr" />
-        <article
-          className="homeroute-distro_card"
-          onClick={() => navigate("/arch")}
-        >
+        <a className="homeroute-distro_card" href="/arch">
           <img src="/img/arch.png" alt="arch" className="hrcard-img_left" />
           <h2 className="hrcard-title">Arch</h2>
-        </article>
+        </a>
 
         <hr className="homeroute-hr" />
       </div>

@@ -1,0 +1,43 @@
+.redhatcard-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: 10px;
+  border: 2px solid var(--color8);
+  box-shadow: 2px 3px 3px var(--color8);
+  width: 12rem;
+}
+
+.redhatcard-Container_text {
+  font-weight: bolder;
+}
+
+.redhatcard-Container_image {
+  width: 7rem;
+}
+
+.redhatcard-Container:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  box-shadow: 5px 2px 3px var(--color8);
+}
+
+.redhatcard-Container_a {
+  background-color: var(--color9);
+  color: var(--color3);
+  padding: 0.3rem 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.redhatcard-Container_a:hover {
+  background-color: var(--color2);
+  transform: scale(1.05);
+  color: var(--color8);
+}

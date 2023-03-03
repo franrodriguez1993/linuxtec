@@ -1,40 +1,43 @@
-.Card-Container {
+.debiancard-Container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
   margin: 2rem;
   border-radius: 10px;
-  border: 2px solid var(--color5);
-  box-shadow: 3px 3px 3px var(--color5);
+  border: 2px solid var(--color8);
+  box-shadow: 2px 3px 3px var(--color8);
   width: 12rem;
 }
 
-.Card-Container_text {
+.debiancard-Container_text {
   font-weight: bolder;
 }
 
-.Card-Container_image {
+.debiancard-Container_image {
   width: 7rem;
 }
 
-.Card-Container:hover {
+.debiancard-Container:hover {
   cursor: pointer;
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
-  box-shadow: 5px 4px 4px var(--color5);
+  box-shadow: 5px 2px 3px var(--color8);
 }
 
-.Card-Container_a {
-  background-color: var(--color6);
+.debiancard-Container_a {
+  background-color: var(--color9);
   color: var(--color3);
-  padding: 0.5rem;
+  padding: 0.3rem 1rem;
+  color: #fff;
   text-decoration: none;
   margin-top: 1rem;
   border-radius: 10px;
 }
 
-.Card-Container_a:hover {
+.debiancard-Container_a:hover {
   background-color: var(--color2);
+  transform: scale(1.05);
+  color: var(--color8);
 }

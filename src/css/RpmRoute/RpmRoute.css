@@ -1,4 +1,4 @@
-.DebianRoute-Container {
+.rpmRoute-Container {
   min-height: 95vh;
   background: rgb(0, 0, 0);
   background: linear-gradient(
@@ -6,7 +6,7 @@
       rgba(0, 0, 0, 0.4920343137254902) 0%,
       rgba(0, 0, 0, 0.520045518207283) 100%
     ),
-    url("/public/img/linux-yellow.png");
+    url("/public/img/redHatBG.png");
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -22,20 +22,21 @@
 .Title-Container_image {
   height: 4rem;
 }
-.Title-Container_text {
+.rhr-title-Container_text {
   font-size: 4rem;
-  color: var(--color3);
+  color: #fff;
 }
 
 .Description-Container {
   background-color: #fff;
-  margin-top: 2rem;
+  margin: 3rem 0;
   padding: 1rem;
   width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 5px 5px 5px var(--color7);
+  animation: fadeinAnimation 2s ease-in forwards;
 }
 
 .Description-Container_HR {
@@ -48,4 +49,10 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 400px) {
+  .rhr-title-Container_text {
+    font-size: 2.5rem;
+  }
 }

@@ -16,23 +16,66 @@ const FAQRoute = () => {
     }
   }, []);
 
+  /** FADE IN SECTIONS  **/
+  window.onscroll = function () {
+    fadeInFunction();
+  };
+
+  function fadeInFunction() {
+    const historySection = document.querySelector(".historySection");
+    const whatisSection = document.querySelector(".whatisSection");
+    const characteristicsSection = document.querySelector(".characteristics");
+    const advantagesSection = document.querySelector(".advantages");
+
+    let historySection_distance =
+      window.innerHeight - historySection.getBoundingClientRect().top;
+    if (historySection_distance >= 100) {
+      historySection.classList.add("effect-fade");
+    }
+
+    let whatisSection_distance =
+      window.innerHeight - whatisSection.getBoundingClientRect().top;
+    if (whatisSection_distance >= 100) {
+      whatisSection.classList.add("effect-fade");
+    }
+
+    let characteristicsSection_distance =
+      window.innerHeight - characteristicsSection.getBoundingClientRect().top;
+    if (characteristicsSection_distance >= 100) {
+      characteristicsSection.classList.add("effect-fade");
+    }
+
+    let advantagesSection_distance =
+      window.innerHeight - advantagesSection.getBoundingClientRect().top;
+    if (advantagesSection_distance >= 100) {
+      advantagesSection.classList.add("effect-fade");
+    }
+  }
   return (
     <div className="faqroute-container">
-      <a id="history">
-        <History />
-      </a>
+      <section className="historySection">
+        <a id="history">
+          <History />
+        </a>
+      </section>
 
-      <a id="whatis">
-        <WhatIs />
-      </a>
+      <section className="whatisSection">
+        <a id="whatis">
+          <WhatIs />
+        </a>
+      </section>
 
-      <a id="characteristics">
-        <Characteristic />
-      </a>
+      <section className="characteristics">
+        <a id="characteristics">
+          <Characteristic />
+        </a>
+      </section>
 
-      <a id="advantages">
-        <Advantages />
-      </a>
+      <section className="advantages">
+        <a id="advantages">
+          <Advantages />
+        </a>
+      </section>
     </div>
   );
 };

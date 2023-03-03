@@ -2,6 +2,7 @@ import React from "react";
 import "../../css/Accesories/Navbar.css";
 import { NavLink } from "react-router-dom";
 import barsIcon from "../../svg/bars.svg";
+
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
